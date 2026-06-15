@@ -1,0 +1,12 @@
+x=input()
+upper=0
+lower=0
+for y in x:
+    if y.isupper():
+        upper+=1
+    else:
+        lower+=1
+if upper > lower:
+    print(x.upper())
+else:
+    print(x.lower())
